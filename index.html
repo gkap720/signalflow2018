@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Signal Flow 2018</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/splash.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet"> 
+  <script type="text/javascript" src="/js/index.js"></script>
+  <!-- Load the Paper.js library -->
+  <script type="text/javascript" src="/js/paper-full.min.js"></script>
+</head>
+
+<body>
+<canvas id="myCanvas" resize></canvas>
+<div id="splash_container">
+  <img src="/img/splash_crop.png" id="splash_image">
+</div>
+
+<a class="btn btn-lg" id="back">Back</a>
+<div class="container" id="text">
+  <h1 id="nav1"><a id="about">About</a></h1>
+  <h1 id="nav2"><a id="locations">Venues</a></h1>
+  <h1 id="nav3"><a id="schedule">Lineup</a></h1>
+  <h1 id="nav4"><a id="directions">Directions</a></h1>
+</div>
+<div class="container" id="about_section" style="display: none">
+</div>
+<div class="container" id="schedule_section" style="display: none">
+</div>
+<div class="container" id="bios_section" style="display: none">
+</div>
+<div class="container" id="locations_section" style="display: none">
+</div>
+<div class="container" id="directions_section" style="display: none">
+</div>
+<div id="bio_content" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div id="html_here" class="modal-content">
+    </div>
+  </div>
+</div>
+<div id="cover">
+  
+</div>
+<div id="social">
+  <div class="row">
+    <a target="_blank" href="https://www.facebook.com/events/1765378003771781/"><img id="logo" src="/img/fb_icon.png" width="60" height="60"></a>
+    <a target="_blank" href="https://www.instagram.com/millscollegemusic/"><img id="logo" src="/img/ig_logo.png" width="60" height="60"></a>
+    <a target="_blank" href="https://www.gofundme.com/signal-flow-2018-receptions"><img id="logo" src="/img/gofundme_logo.png" height="60"></a>
+  </div>
+</div>
+        <iframe id="soundcloud_player" src="https://bandcamp.com/EmbeddedPlayer/album=2366572449/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=true/artwork=small/transparent=true/" seamless><a href="http://venetiansnares.bandcamp.com/album/she-began-to-cry-tears-of-blood-which-became-little-brick-houses-when-they-hit-the-ground">She Began To Cry Tears Of Blood Which Became Little Brick Houses When They Hit The Ground by Venetian Snares</a></iframe>
+
+</iframe>
+
+<div id="mobile_media" class="btn-group">
+  <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Media <span class="caret"></span>
+  </button>
+  <div class="dropdown-menu">
+    <div class="row">
+      <a target="_blank" href="https://www.facebook.com/events/1765378003771781/"><img id="logo" src="/img/fb_icon.png" width="50" height="50"></a>
+      <a target="_blank" href="https://www.instagram.com/millscollegemusic/"><img id="logo" src="/img/ig_logo.png" width="50" height="50"></a>
+      <a target="_blank" href="https://www.gofundme.com/signal-flow-2018-receptions"><img id="logo" src="/img/gofundme_logo.png" height="50"></a>
+
+    </div>
+        <iframe id="soundcloud_mobile" height="300px" src="https://bandcamp.com/EmbeddedPlayer/album=2366572449/size=large/bgcol=ffffff/linkcol=0687f5/artwork=small/transparent=true/" seamless><a href="http://venetiansnares.bandcamp.com/album/she-began-to-cry-tears-of-blood-which-became-little-brick-houses-when-they-hit-the-ground">She Began To Cry Tears Of Blood Which Became Little Brick Houses When They Hit The Ground by Venetian Snares</a></iframe>
+        </div>
+</div>
+<script type="text/paperscript" canvas="myCanvas" src="/js/paper/circles.js">
+
+</body>
+</html>
+

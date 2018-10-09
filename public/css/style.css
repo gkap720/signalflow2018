@@ -1,0 +1,84 @@
+
+
+/*Define all font styles*/
+@font-face {
+    font-family: 'FFF Regular';
+    src: url(../fonts/FFF_Regular_TRIAL.ttf);
+}
+
+@font-face {
+    font-family: 'TT Moons';
+    src: url(../fonts/TT-Moons-Thin-Italic-DEMO.otf);
+}
+
+
+/*fonts*/
+/*header style*/
+h1.large{
+  font-size: 5em;
+  color: white;
+  font-weight: bold;
+}
+
+h1{
+  font-family: 'TT Moons', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+span.h1number{
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+}
+
+h2{
+  font-family: 'TT Moons', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 45px;
+}
+
+span.h2number{
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+}
+
+
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5em;
+  color: white;
+  font-weight: 300;
+}
+
+/*size of each persons name on performers bio page*/
+.performers{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.website{
+  font-family: 'Roboto Condensed', serif;
+  font-size: 1.7em;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 486px) {
+  .header {
+    max-width: 50%;
+  }
+}
+
+.padder {
+  height: 95px;
+  font-family: "TT Moons";
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+

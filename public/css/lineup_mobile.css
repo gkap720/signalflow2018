@@ -1,0 +1,91 @@
+div div.tab-pane {
+	color: white;
+}
+.row {
+	padding-left: 15px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	
+}
+.title {
+	font-size: 36px;
+	font-family: "TT Moons";
+	font-weight: bold;
+}
+div.row + div.row {
+    float: right;
+    margin-right: 5px;
+}
+a.nav-link {
+	color: white;
+	font-size: 24px;
+}
+#datenav {
+	margin-top: 5%;
+	width: 100%;
+}
+li a {
+	color: white;
+	font-size: 24px;
+	line-height: 1;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 300;
+}
+li a.nav-link {
+	font-family: "TT Moons";
+	font-weight: bold;
+}
+li a:hover {
+	text-decoration: none;
+	color: black;
+}
+li.bio {
+	width: 100%;
+	max-width: 100%;
+	font-size: 1.2em;
+}
+#artist_name {
+	font-size: 4.0em;
+	line-height: 1;
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+#littlefield {
+	margin 0 auto;
+	padding-top: 10px;
+	color: white;
+	font-family: "Roboto Condensed", sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1;
+}
+.time {
+	font-size: 0.6em;
+}
+.place {
+	font-size: 0.6em;
+}
+modal.header .close {
+	font-size: 48px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+#header {
+    height: 10%;
+    visibility: hidden;
+}
+.headshot {
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
